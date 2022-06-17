@@ -112,6 +112,7 @@ article p{
 }
 .quadro img{
     width: 40%;
+    max-width: 400px;
 }
 #chamada02{
     padding: 25px;
