@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Londrina+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+:root {
+    --cor01: #CC405C;
+    --cor02: #F00400;
+    --cor03: #b83e56;
+    --cor04: #17df56;
+    --cor05: #00A333;
+    --font01: 'Bebas Neue', cursive;
+    --font02: Arial, Helvetica, sans-serif;
+    --font03: 'Kdam Thmor Pro', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: var(--cor03);
+    color: white;
+    justify-content: space-between;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    padding: 1rem;
+}
+header ul li{
+    padding: 1rem;
+    border-radius: 15px;
+}
+#logo{
+    color: white;
+    text-decoration: none;
+    font-size: 3rem;
+    font-family: var(--font01);
+    
+}
+header li:hover{
+    background-color: var(--cor01);
+    transition: .6s;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+#chamada1{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    height: auto;
+    background-color: var(--cor04);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.575);
+}
+section{
+    display: flex;
+    background-color: var(--cor01);
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+article{
+    color: white;
+    text-align: center;
+}
+article h1{
+    font-size: 3rem;
+    padding: 15px;
+    font-family: var(--font01);    
+}
+article p{
+    font-family: var(--font02);
+    padding: 15px;
+}
+.quadro{ 
+    border: 5px solid rgba(0, 0, 0, 0.103);
+    margin: 40px;
+    border-radius: 15px;
+    height: auto;
+}
+.quadro h1{
+    color: var(--cor01);
+    text-align: center;
+    font-size: 3rem;
+}
+.quadro section{
+    display: flex;
+    background-color: white;
+    padding: 40px;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 20px;
+}
+.quadro ul{
+    color: var(--cor01);
+    padding: 15px;
+    list-style: none;
+}
+.quadro li{
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: var(--font02); 
+    font-weight: bold;
+}
+.quadro img{
+    width: 40%;
+}
+#chamada02{
+    padding: 25px;
+    display: block;
+    width: 300px;
+    background-color: var(--cor01);
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+}
+#chamada02:hover{
+    background-color: var(--cor03);
+}
+.transicao{
+    height: 50px;
+    color: white;
+    font-family: var(--font02);
+    font-size: 1.5rem;
+    text-align: center;
+}
+#quadro02 section{
+    display: flex;
+}
+#bonus{
+    height: 700px;
+    background-color: black;
+    background-image: url(model.jpg);
+    background-size: 100vw;
+}
+#bonus ul{
+    color: white;
+    font-size: 2rem;
+    padding: 100px;
+}
+#bonus li{
+    padding: 35px;
+
+}
+#final{
+    background-color: white;
+    display: block;
+    height: 600px;
+    
+}
+#final div{
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
+}
+#final div p{
+    height: 300px;
+    background-color: rgba(128, 128, 128, 0.363);
+    font-size: 1.5rem;
+    font-family: var(--font02);
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+}
+.container {
+    text-align: center;
+}
+.container > iframe {
+    background: black;
+    border: none;
+    height: 450px;
+    width: 900px;
+}
+footer{
+    display: block;
+    height: 50px;
+    background-color: var(--cor01);
+}
+
+
+
